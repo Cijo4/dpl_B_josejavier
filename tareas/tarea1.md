@@ -22,3 +22,15 @@ posteriormente hacer que github los ignore.
 touch privado.txt
 mkdir privada
 ~~~
+
+Añadimos dentro del documento .gitignore el nombre del txt y de 
+la carpeta que queremos que ignore.
+
+Ahora procedemos a creoar el archivo 1.txt y lo añadimos al 
+repositorio local.
+
+~~~
+touch 1.txt
+git add . 
+git commit -m "commit 1.txt"
+~~~
