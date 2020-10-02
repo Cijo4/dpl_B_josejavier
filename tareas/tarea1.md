@@ -14,3 +14,11 @@ git commit -m "commit inicial"
 Por ultimo subiremos el cambio al repositorio con push
 
 `git push`
+
+Creamos el archivo txt privado y la carpeta privada para 
+posteriormente hacer que github los ignore.
+
+~~~
+touch privado.txt
+mkdir privada
+~~~
