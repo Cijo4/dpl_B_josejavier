@@ -73,6 +73,10 @@ Y comrpobaremos que se ha creado con el comando
 
 ## Subir el Tag v0.1
 
+Para subir el tag al respositorio usaremos el comando git push --tags.
+
+![Subir tag](subirTag.png)
+
 ## Configuración y uso social de GitHub
 
 Para cambiar la foto de nuestro perfil de GitHub debemos ir a nuestro perfil, 
