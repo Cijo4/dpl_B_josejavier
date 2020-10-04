@@ -6,6 +6,8 @@ Clonamos el repositorio, usando el siguiente comando:
 
 `git clone https://github.com/Cijo4/dpl_B_josejavier.git`
 
+![clonando repositorio](clonarRepositorio.png)
+
 ## Commit inicial
 
 Haremos el primer commit para subir el documento Tarea1.md ya modificado
@@ -84,3 +86,9 @@ Una vez ahi tendremos la opcion a la derecha para darle a una estrella.
 | Estanis | [Repositorio de Estanis](https://github.com/dawestanis/dpl_B_estanis) |
 | Romen | [Repositorio de Romen](https://github.com/romentoss/dpl_B_romen) |
 | Juan Daniel | [Repositorio de Juan Daniel](https://github.com/zclut/dpl_juan) |
+
+## Colaboradores 
+
+Para añadir a un colaborador a nuestro repositorio iremos a dicho repositorio.
+Pulsamos en settings, y en el menú de la izquiera accedemos a Manager access.
+Nos aparecera un botón verde a la derecha con la opcion de invitar a un colaborador.
