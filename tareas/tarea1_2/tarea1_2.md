@@ -61,7 +61,57 @@ Despues de este error si accedemos al txt con nano veremos el documento de la si
 
 ![conflicto2](mergeHyA.png)
 
+## Listado de ramas
+
+Para listar las ramas usamos el comando git branch y nos apareceran todas las ramas 
+disponibles.
+
+`git branch`
+
+![listado ramas](listadoRamas.png)
+
+## Arreglar conflicto
+
 Para solucionarlo debemos borrar el contenido que queremos descartar y luego hacer el 
 commit correspondiente.
 
 ![conflicto3](arregloConflicto.png)
+
+## Borrar rama
+
+Primero nos disponemos a crear un nuevo tag, para ello usamos git tag [nombre del tag]
+posteriormente vamos a eliminar la rama v0.2 que hemos creado al principio del ejercicio.
+
+~~~~
+git tag v0.2
+git branch -d v0.2
+~~~~
+
+## Listado de cambios
+
+Para listar todos los cambios, es decir, todos los commits hechos y demas usaremos el 
+comando git log
+
+`git log`
+
+![listado commits](listadoCommits.png)
+
+## Crear una oganizacion
+
+Para crear una organizacion debemos ir a GitHub, una vez ahi clicamos en el "+" al lado
+de nuestra foto de perfil y nos aparecera la opcion de New organization.
+
+![organizacion](org1.png)
+
+Nos llevara a un menu para crearla con su nombre correspondiente.
+
+![organizacion2](org2.png)
+
+## Crear equipos
+
+Para crear equipos debemos ir a nuestra organizacion y clicar en Teams y luego pulsar el 
+botón New Team.
+
+![team](newTeam.png)
+
+![teams](teams.png)
