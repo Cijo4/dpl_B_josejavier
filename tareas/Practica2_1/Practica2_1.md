@@ -1,4 +1,4 @@
-#Creando las maquinas
+## Creando las maquinas
 
 Para empezar creamos las maquinas virtuales a partir de las OVAS.
 A las cuales en mi caso llamare DesarrolloW722 y ServidorLinux22 en mi caso, 
@@ -8,7 +8,7 @@ dado que mi pc en el aula es Marte22.
 
 ![maquinas](maquinascreadas.png)
 
-#Configuracion de adaptador de red en VBox
+## Configuracion de adaptador de red en VBox
 
 Para hacer esto seleccionamos la maquina, vamos a configuracion y luego
 pulsamos en red, ahi procederemos al cambio a red interna.
@@ -17,7 +17,7 @@ pulsamos en red, ahi procederemos al cambio a red interna.
 
 ![redUbuntu](redinternaU.png)
 
-#Configuracion de adpatador de red Windows
+## Configuracion de adpatador de red Windows
 
 Para hacer esto debemos ir a:
 
@@ -30,7 +30,7 @@ va a referenciar.
 
 ![ipWindows](ipWindows.png)
 
-#Configuracion del adaptador de red en Ubuntu
+## Configuracion del adaptador de red en Ubuntu
 
 Para hacer este paso dado que el comando /etc/network/interfaces no funciona
 debemos usar netplan.
@@ -50,7 +50,7 @@ y vemos que nos ha cambiado la ip de nuesta maquina.
 
 ![ipUbuntu](ipUbuntu.png)
 
-#Comprobacion de la configuracion y de funcionamiento.
+## Comprobacion de la configuracion y de funcionamiento.
 
 Por ultimo para comprobar que nuestras dos maquinas se conectan
 usaremos el comando ping en ambas maquinas.
