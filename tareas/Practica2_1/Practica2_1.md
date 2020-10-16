@@ -1,3 +1,7 @@
+#Practica 2.1
+
+## José Sánchez 
+
 ## Creando las maquinas
 
 Para empezar creamos las maquinas virtuales a partir de las OVAS.
