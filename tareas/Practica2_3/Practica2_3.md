@@ -12,7 +12,9 @@ sudo apt update
 sudo apt install nginx
 ~~~
 
-> Falta imagen
+![update](update.png)
+
+![install](instalNginx.png)
 
 ## Configurar firewall
 
@@ -24,15 +26,28 @@ Para habilitarlo usaremos el siguiente comando:
 
 ![allow](allow.png)
 
+Podemos comprobar que se ha realizado el cambio con:
+
+`sudo ufw status`
+
+![status1](status1.png)
+
 ## 3. Comprobar el estado del servidor web.
 
 Posteriormente comprobamos el estado del servicio con:
 
 `sudo systemctl status nginx`
 
-![status](status.png)
+![status](status2.png)
 
-> Falta comprobar ip en windows 7
+Podemos comprobar que el servicio esta activo yendo a la maquina de windows
+y poniendo nuestra ip en el navegador.
+
+![nginx](nginx2.png)
+
+Como se ve en la imagen tuve que cambiar el index predeterminado en ubuntu server
+dado que, incluso con el apache deshabilitado, me seguia saliendo la pagina de 
+apache. De esta manera hacemos que el index predeterminado sea el de nginx.
 
 ## 4. Administrar el proceso de Nginx
 
