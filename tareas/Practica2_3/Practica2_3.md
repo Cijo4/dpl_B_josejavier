@@ -19,7 +19,7 @@ sudo apt install nginx
 ## Configurar firewall
 
 Para este punto nos recomiendan tener habilidato el perfil mas restrictivo.
-En mi caso tengo habilitado todos los puertos para futuras prácticas.
+En mi caso tengo habilitado el 80.
 Para habilitarlo usaremos el siguiente comando:
 
 `sudo ufw allow 'Nginx HTTP'`
