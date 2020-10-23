@@ -94,3 +94,18 @@ Lo haremos de la misma forma, pero esta ves en vez de /manager/html vamos a escr
 `10.70.20.120:8080/host-manager/html`
 
 ![host manager](tomcatWindows.png) 
+
+## Cambiando el tamaño maximo admitido de los archivos .war
+
+En este punto vamos a cambiar el tamaño máximo por defecto admitido por los archivos war.
+Para esto vamos a ir al archivo web.xml del gestor de aplicaciones de Tomcat.
+
+`sudo nano /usr/share/tomcat9-admin/manager/WEB-INF/web.xml`
+
+en el bloque `multipart-config` podemos ver el tamaño máximo por defecto que son 50MB.
+
+![tamaño](tamaño.png)
+
+Vamos a cambiar el tamaño y ponerle 100MB
+
+![tamaño2](tamaño2.png)
