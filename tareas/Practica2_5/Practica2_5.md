@@ -12,8 +12,6 @@ Para actualizar los paquetes haremos primero `sudo apt update` y luego `sudo apt
 
 Realizaremos la instalación de apache como vimos en la práctica anterior.
 
-![]  
-
 ## 3. Instalación del servidor de base de datos MartiaDB
 
 Realizaremos la instalacion de mariadb con el siguiente comando
