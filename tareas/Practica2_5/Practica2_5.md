@@ -55,4 +55,32 @@ Instalaremos PHP y algumos módulos comunes de PHP con el siguiente comando:
 
 ![php](11php.png)
 
+Ahora activaremos el modulo de Apache PHP usaremos los siguientes comandos
 
+`sudo a2enmod php7.4`
+
+![php](12.png)
+
+Luego haremos
+
+`sudo systemctl restart apache2`
+
+![restart](13.png)
+
+Verificaremos la versión de apache 
+
+`php --version`
+
+![php](14.png)
+
+Por último crearemos el archivo vim con el codigo de php
+
+`sudo vim /var/www/html/info.php`
+
+Y le pondremos el siguiqnte código
+
+`<?php phpinfo();?>`
+
+![vim](15.png)
+
+ 
