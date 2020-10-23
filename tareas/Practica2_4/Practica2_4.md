@@ -95,6 +95,20 @@ Lo haremos de la misma forma, pero esta ves en vez de /manager/html vamos a escr
 
 ![host manager](tomcatWindows.png) 
 
+## Desplegando aplicaciones sobre Tomcat 9 en Ubuntu server
+
+Descargamos el archivo war de la plataforma.
+
+![war](war.png)
+
+Lo desplegamos en el gestor de aplicaciones web.
+
+![war](war2.png)
+
+Por ultimo pondremos el enlace en nuestro buscador para mostrar la aplicación.
+
+![war](war3.png)
+
 ## Cambiando el tamaño maximo admitido de los archivos .war
 
 En este punto vamos a cambiar el tamaño máximo por defecto admitido por los archivos war.
@@ -109,3 +123,4 @@ en el bloque `multipart-config` podemos ver el tamaño máximo por defecto que s
 Vamos a cambiar el tamaño y ponerle 100MB
 
 ![tamaño2](tamaño2.png)
+
